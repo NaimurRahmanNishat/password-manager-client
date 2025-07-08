@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-  return typeof window !== 'undefined' ? 'http://localhost:8000' : 'http://localhost:8000';
+  return typeof window !== 'undefined' ? 'https://password-manager-server-five.vercel.app' : 'https://password-manager-server-five.vercel.app';
 };
 
 export { getBaseUrl };
